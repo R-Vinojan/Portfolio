@@ -9,7 +9,7 @@ export default function Body(){
             <h1 class="text-[25px] md:text-[40px]">Hello there!<br /> I am Vinojan.R<br /><p class="my-font text-[31px] md:text-[60px]">cyber security</p></h1>
        </div>
       <div class="flex flex-[40%] md:flex-[33%] items-end justify-center overflow-visible ">
-            <img src="/pic.png" class="absolute h-90 z-10 pr-5  md:h-160" alt="My Image" />
+            <img src="./pic.png" class="absolute h-90 z-10 pr-5  md:h-160" alt="My Image" />
       </div>
       </div>
       <div class="flex-[40%] pt-5 md:pt-40 ">
@@ -28,37 +28,37 @@ export default function Body(){
     <img src="./python.png" class="h-20 w-20 object-cover" alt="python" />
   </div>
   <div class="h-20 w-20 bg-black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/html.png" class="h-16 w-16 object-cover" alt="html" />
+    <img src="./html.png" class="h-16 w-16 object-cover" alt="html" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/css.png" class="object-cover" alt="css" />
+    <img src="./css.png" class="object-cover" alt="css" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/js.png" class="h-16 w-16 object-cover" alt="js" />
+    <img src="./js.png" class="h-16 w-16 object-cover" alt="js" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/kali.jpg" class="object-cover" alt="kali" />
+    <img src="./kali.jpg" class="object-cover" alt="kali" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/Linux.jpg" class="h-20 w-20 object-cover" alt="linux" />
+    <img src="./Linux.jpg" class="h-20 w-20 object-cover" alt="linux" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/vite.svg" class="h-16 w-16 object-cover" alt="vite" />
+    <img src="./vite.svg" class="h-16 w-16 object-cover" alt="vite" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/figma.png" class="object-cover" alt="figma" />
+    <img src="./figma.png" class="object-cover" alt="figma" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/react.png" class=" object-cover" alt="react" />
+    <img src="./react.png" class=" object-cover" alt="react" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/tailwind.jpg" class="object-cover" alt="tw" />
+    <img src="./tailwind.jpg" class="object-cover" alt="tw" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/photoshop.png" class="object-cover" alt="ps" />
+    <img src="./photoshop.png" class="object-cover" alt="ps" />
   </div>
   <div class="h-20 w-20 bg-black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/illust.png" class="object-cover h-25 w-25" alt="illus" />
+    <img src="./illust.png" class="object-cover h-25 w-25" alt="illus" />
   </div>
 </div>
 
