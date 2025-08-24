@@ -1,5 +1,6 @@
 import './body.css'
 import About from './About'
+import PortfolioCard from "./portfoliocard";
 export default function Body(){
     return(
         <>
@@ -16,12 +17,12 @@ export default function Body(){
             <h1 class="text-[25px] md:text-[40px]">Wecome to my<br /><b class="my-font text-[43px] md:text-[60px]">portfolio</b></h1>
        </div>
     </div>
-    <div class="flex flex-col gap-4 mr-4 ml-4">
+    <div id="about" class="flex flex-col gap-4 mr-4 ml-4">
         <div class="border-2 border-green-300 rounded-md h-auto bg-black backdrop-blur-md p-1.5" >
           <h1 class="text-center text-green-500 text-[30px] font-bold">My story</h1>
             <About />
           </div>
-          <div class="h-auto p-4 justify-center">
+          <div id="skills" class="h-auto p-4 justify-center">
           <h1 class="text-center text-white text-2xl font-bold ">Skills</h1>
        <div class="grid grid-cols-3 md:grid-cols-5 gap-4 p-4 place-items-center">
   <div class="h-20 w-20 bg-black rounded-full overflow-hidden flex border-2 border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
@@ -63,7 +64,7 @@ export default function Body(){
 </div>
 
           </div>
-           <div class="h-auto p-4
+           <div id='projects' class="h-auto p-4
                         bg-green-500/20          
                         backdrop-blur-md         
                         backdrop-saturate-150   
@@ -71,51 +72,99 @@ export default function Body(){
                         rounded-xl shadow-lg">
           <h1 class="text-center text-white text-2xl font-bold">My projects</h1>
           <div class="flex flex-col gap-3 pt-4">
-            <div>
-              <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                    <img class="object-cover w-full rounded-t-lg  md:h-auto md:w-100 md:rounded-none md:rounded-s-lg" src="./image.png" alt=""/>
-                    <div class="flex flex-col justify-between p-4 leading-normal">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive portfolio</h5>
-                      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is my fine looking cyber security portfolio,this is one of my greate project</p>
-                    </div>
-              </a>
-            </div>
-            <div>
-              <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                    <img class="object-cover w-full rounded-t-lg  md:h-auto md:w-100 md:rounded-none md:rounded-s-lg" src="./image2.png" alt=""/>
-                    <div class="flex flex-col justify-between p-4 leading-normal">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive UI/UX design</h5>
-                      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is one of my figma design UI/UX ,this is for ride hailing application</p>
-                    </div>
-              </a>
-            </div>
-            <div>
-              <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                    <img class="object-cover w-full rounded-t-lg  md:h-auto md:w-100 md:rounded-none md:rounded-s-lg" src="./image3.png" alt=""/>
-                    <div class="flex flex-col justify-between p-4 leading-normal">
-                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive UI/UX design</h5>
-                      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is one of my figma design UI/UX ,this is for our first year project website</p>
-                    </div>
-              </a>
-            </div>
-            <div>
-              <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                    <img class="object-cover w-full rounded-t-lg  md:h-auto md:w-100 md:rounded-none md:rounded-s-lg" src="./image4.png" alt=""/>
-                    <div class="flex flex-col justify-between p-4 leading-normal">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My art gallery</h5>
-                      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is my fine looking cyber security portfolio,this is one of my greate project</p>
-                    </div>
-              </a>
-            </div>
+              <PortfolioCard
+                title="Responsive Portfolio"
+                description="Here is my fine looking cyber security portfolio. This is one of my Here is my fine looking cyber security portfolio. This is one of great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                imageSrc="./image.png"
+                link="#"
+              />
+              <PortfolioCard
+                title="Responsive UI/UX design"
+                description="Here is one of my figma design UI/UX ,this is for ride hailing application. This is one of great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                imageSrc="./image2.png"
+                link="#"
+              />
+              <PortfolioCard
+                title="Responsive UI/UX design"
+                description="Here is one of my figma design UI/UX ,this is for our first year project website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                imageSrc="./image3.png"
+                link="#"
+              />
+              <PortfolioCard
+                title="My art gallery"
+                description="Here is one of my figma design UI/UX ,this is for our first year project website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                imageSrc="./image2.png"
+                link="#"
+              />
           </div>
           </div>                      
-               <div class="flex flex-col gap-4 h-110 pl-4 pr-4 pd-4">
+               <div id="blog" class="flex flex-col gap-4 h-110 pl-4 pr-4 pd-4">
           <h1 class="text-center text-white text-2xl font-bold">my achivements</h1>
         <div class="flex flex-col gap-4 md:flex-row">          
-                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 w-20  hover:shadow-[0_0_25px_skyblue]"></div>             
-                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 w-20  hover:shadow-[0_0_25px_skyblue]"></div>   
-                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 w-20  hover:shadow-[0_0_25px_skyblue]"></div>   
-                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 w-20  hover:shadow-[0_0_25px_skyblue]"></div>   
+                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 hover:shadow-[0_0_25px_skyblue] overflow-hidden">
+                        <a href="#" 
+                        class="flex flex-col items-center bg-white border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] 
+                                md:flex-row md:max-w-xl hover:shadow-[0_0_25px_skyblue] transition-shadow duration-300 overflow-hidden">                  
+                        <img class="object-cover w-full h-20 md:h-96 md:w-48 md:rounded-none md:rounded-l-md" 
+                            src="/docs/images/blog/image-4.jpg" alt="Technology Acquisition" />                   
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Noteworthy technology acquisitions 2021
+                          </h5>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                          </p>
+                        </div>
+                      </a>
+                  </div>            
+                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 hover:shadow-[0_0_25px_skyblue] overflow-hidden">
+                        <a href="#" 
+                        class="flex flex-col items-center bg-white border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] 
+                                md:flex-row md:max-w-xl hover:shadow-[0_0_25px_skyblue] transition-shadow duration-300 overflow-hidden">                  
+                        <img class="object-cover w-full h-20 md:h-96 md:w-48 md:rounded-none md:rounded-l-md" 
+                            src="/docs/images/blog/image-4.jpg" alt="Technology Acquisition" />                   
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Noteworthy technology acquisitions 2021
+                          </h5>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                          </p>
+                        </div>
+                      </a>
+                  </div>  
+                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 hover:shadow-[0_0_25px_skyblue] overflow-hidden">
+                        <a href="#" 
+                        class="flex flex-col items-center bg-white border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] 
+                                md:flex-row md:max-w-xl hover:shadow-[0_0_25px_skyblue] transition-shadow duration-300 overflow-hidden">                  
+                        <img class="object-cover w-full h-20 md:h-96 md:w-48 md:rounded-none md:rounded-l-md" 
+                            src="/docs/images/blog/image-4.jpg" alt="Technology Acquisition" />                   
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Noteworthy technology acquisitions 2021
+                          </h5>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                          </p>
+                        </div>
+                      </a>
+                  </div>     
+                <div class="h-20 w-full bg-blue-500 border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] transition-shadow duration-300 md:h-95 hover:shadow-[0_0_25px_skyblue] overflow-hidden">
+                        <a href="#" 
+                        class="flex flex-col items-center bg-white border-2 border-sky-400 rounded-md shadow-[0_0_5px_skyblue] 
+                                md:flex-row md:max-w-xl hover:shadow-[0_0_25px_skyblue] transition-shadow duration-300 overflow-hidden">                  
+                        <img class="object-cover w-full h-20 md:h-96 md:w-48 md:rounded-none md:rounded-l-md" 
+                            src="/docs/images/blog/image-4.jpg" alt="Technology Acquisition" />                   
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Noteworthy technology acquisitions 2021
+                          </h5>
+                          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                          </p>
+                        </div>
+                      </a>
+                  </div>    
           </div>
         </div>  
         </div>

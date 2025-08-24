@@ -10,8 +10,8 @@ export default function Navbar(){
                     <a href="#home" class="hover:text-blue-400 transition">Home</a>
                     <a href="#about" class="hover:text-blue-400 transition">About Me</a>
                     <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
-                    <a href="#services" class="hover:text-blue-400 transition">Services</a>
-                    <a href="#blog" class="hover:text-blue-400 transition">Blog</a>
+                    <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                    <a href="#blog" class="hover:text-blue-400 transition">Achivement</a>
                     <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
                     </nav>
     
