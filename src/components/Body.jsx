@@ -3,7 +3,7 @@ import About from './About'
 export default function Body(){
     return(
         <>
-        <div class="flex flex-col md:flex-row h-156 mb-4 ml-6 mr-6 text-[#20C20E]">
+        <div class="h-156 flex flex-col md:flex-row h-screen mb-4 ml-6 mr-6 text-[#20C20E]">
       <div class="flex flex-row md: flex-col md:flex-row h-156 flex-[60%]">
       <div class="flex flex-[65%] md:flex-[67] pt-5 md:pt-40">
             <h1 class="text-[25px] md:text-[40px]">Hello there!<br /> I am Vinojan.R<br /><p class="my-font text-[31px] md:text-[60px]">cyber security</p></h1>
