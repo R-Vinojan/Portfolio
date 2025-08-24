@@ -28,7 +28,7 @@ export default function Body(){
     <img src="./python.png" class="h-20 w-20 object-cover" alt="python" />
   </div>
   <div class="h-20 w-20 bg-black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
-    <img src="/Portfolio/html.png" class="h-16 w-16 object-cover" alt="html" />
+    <img src="/Portfolio/public/html.png" class="h-16 w-16 object-cover" alt="html" />
   </div>
   <div class="h-20 w-20 black rounded-full overflow-hidden flex items-center justify-center border-2 hover:border-sky-400 shadow-[0_0_10px_2px_rgba(56,189,248,0.9),0_0_25px_10px_rgba(56,189,248,0.6)]">
     <img src="/css.png" class="object-cover" alt="css" />
