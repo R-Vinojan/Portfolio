@@ -9,7 +9,7 @@ export default function Body(){
             <h1 class="text-[25px] md:text-[40px]">Hello there!<br /> I am Vinojan.R<br /><p class="my-font text-[31px] md:text-[60px]">cyber security</p></h1>
        </div>
       <div class="flex flex-[40%] md:flex-[33%] items-end justify-center overflow-visible ">
-            <img src="/pic.png" class="absolute h-90 z-10 pr-5  md:h-160" alt="My Image" />
+            <img src="./public/pic.png" class="absolute h-90 z-10 pr-5  md:h-160" alt="My Image" />
       </div>
       </div>
       <div class="flex-[40%] pt-5 md:pt-40 ">
