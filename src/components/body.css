@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("/NexokoraTechnoRegular-LVvaD.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.my-font {
+  font-family: "MyFont", sans-serif;
+}
+.card-back{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px soild skyblue;
+  border-radius: 3rem;
+  gap: 2rem;
+  padding: 5rem 2 rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 5px skyblue;
+  transition: 03.s ease;
+}

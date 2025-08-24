@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'ConsolasCustom';
+  src: url('./assets/fonts/Consolas.ttf') format('truetype');
+}
+
+body {
+  font-family: 'ConsolasCustom', monospace;
+  background-color: black;
+}
+*{
+    line-height: 1;
+}
