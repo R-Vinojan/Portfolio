@@ -55,7 +55,7 @@ export default function Body(){
         <div flex-grow h-auto>
         <div class="flex flex-col mt-18 md:flex-row md:h-screen mb-4 ml-4 mr-4 text-[#20C20E]">            
                  <div class="flex md:flex-[40%] order-2 items-end justify-center overflow-hidden ">
-                    <img src="./pic.png" class="flex  md:h-175" alt="My Image" />
+                    <img src="./pic1.png" class="flex  md:h-175" alt="My Image" />
                   </div>              
               <div class="flex flex-col h-[175px] md:flex-[60%] pt-5 md:pt-40 order-1 pl-10 md:h-auto">   
   <div class="bg-black/40 backdrop-blur-xl rounded-xl p-4">
