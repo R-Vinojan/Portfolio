@@ -11,3 +11,15 @@ body {
 *{
     line-height: 1;
 }
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotateX(3deg) rotateY(-3deg);
+  }
+  50% {
+    transform: translateY(-8px) translateX(2px) rotateX(-3deg) rotateY(3deg);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
