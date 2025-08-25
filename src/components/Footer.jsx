@@ -1,7 +1,7 @@
 import "./Footer.css"; 
 export default function Footer() {
   return (
-    <footer className="flex bg-animated cyber-grid relative overflow-hidden w-full">
+    <footer className="flex bg-animated cyber-grid relative overflow-hidden w-full mt-175 md:mt-80">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Left Section */}
