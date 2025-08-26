@@ -17,14 +17,14 @@ function AchievementCard({ title, image, description }) {
         </h5>
 
         {/* Desktop: always show full text */}
-        <p className="hidden md:block text-gray-700 dark:text-gray-400">
+        <p className="hidden md:block text-white dark:white">
           {description}
         </p>
 
         {/* Mobile: collapsible text */}
         <div className="md:hidden">
           {expanded && (
-            <p className="text-gray-700 dark:text-gray-400">{description}</p>
+            <p className="text-white">{description}</p>
           )}
           <button
             onClick={() => setExpanded(!expanded)}
@@ -73,7 +73,7 @@ export default function Achievements() {
 
   return (
     <div id="blog" className="flex flex-col gap-6 p-4">
-      <h1 className="text-center text-white text-2xl font-bold">
+      <h1 className="text-center text-white text-4xl font-bold">
         My Achievements
       </h1>
 

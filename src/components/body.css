@@ -22,3 +22,50 @@
   box-shadow: 0 0 5px skyblue;
   transition: 03.s ease;
 }
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 1s ease-out forwards;
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%); /* start from right */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* end in normal position */
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 1s ease-out forwards;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.scroll-reveal {
+  opacity: 0; /* hidden initially */
+  transform: translateY(50px);
+}
+
+.scroll-reveal.show {
+  animation: slideUp 0.8s ease-out forwards;
+}

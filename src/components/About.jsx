@@ -50,7 +50,7 @@ My dream is to become a professional who can secure digital environments while a
         {isMobile ? (expanded ? fullText : shortText) : fullText}
       </p>
 
-      {/* Read More / Read Less button only for mobile */}
+     
       {isMobile && (
         <div className="mt-2 text-center">
           <button

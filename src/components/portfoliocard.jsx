@@ -15,8 +15,8 @@ export default function PortfolioCard({ title, description, imageSrc, link }) {
   return (
     <a
       href={link}
-      className="flex flex-col md:flex-row items-start bg-white border border-gray-200 rounded-lg shadow-sm
-                 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300"
+      className="flex flex-col md:flex-row items-start bg-gray-900 border border-gray-200 rounded-lg shadow-sm
+                 hover:bg-gray-700 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300"
     >
       {/* Fixed image */}
       <div className="w-full h-auto  md:w-100 overflow-hidden rounded-t-lg md:rounded-none md:rounded-l-lg">
@@ -29,13 +29,13 @@ export default function PortfolioCard({ title, description, imageSrc, link }) {
 
       {/* Text content */}
       <div className="flex flex-col justify-between p-4 flex-1">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h5 className="mb-2 text-3xl font-bold tracking-tight text-white dark:text-white ">
           {title}
         </h5>
 
         <p
           ref={descRef}
-          className="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden transition-all duration-300"
+          className="mb-3 font-normal text-white dark:text-gray-400 overflow-hidden transition-all duration-300"
         >
           {description}
         </p>

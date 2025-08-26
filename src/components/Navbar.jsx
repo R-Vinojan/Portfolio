@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./navbar.css";
 import { Menu, X } from "lucide-react"; // if you installed lucide-react
 // OR: use heroicons if you don’t want extra install
 // import { MenuIcon, XIcon } from "@heroicons/react/outline";
@@ -7,32 +8,38 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-gray-900 text-white shadow-md fixed top-0 left-0 z-50">
+    <header className="w-full bg-gray-900 text-white shadow-md top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <h1 className="font-head-f text-3xl font-bold tracking-wide">
+        <h1 className="font-head-f text-3xl font-bold tracking-wide opacity-0 animate-slide-left">
           Portfolio.
         </h1>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-lg font-medium">
-          <a href="#home" className="hover:text-blue-400 transition">Home</a>
-          <a href="#about" className="hover:text-blue-400 transition">About Me</a>
-          <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
-          <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
-          <a href="#blog" className="hover:text-blue-400 transition">Achivement</a>
-          <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
+          {["Home", "About Me", "Projects", "Skills", "Achivement", "Contact"].map(
+            (item, i) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase().replace(" ", "")}`}
+                className={`hover:text-blue-400 transition opacity-0 animate-slide-top`}
+                style={{ animationDelay: `${i * 0.2 + 0.5}s` }} // stagger effect
+              >
+                {item}
+              </a>
+            )
+          )}
         </nav>
 
-        {/* Download CV button (hidden on mobile) */}
+        {/* Download CV button */}
         <a
-          href="your-cv.pdf"
-          download
-          className="hidden md:inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg transition"
-        >
-          Download CV
-        </a>
-
+  href="./Ravichandran Vinojan.pdf"
+  download
+  className="hidden md:inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg transition opacity-0 animate-slide-right"
+  style={{ animationDelay: "1.5s" }}
+>
+  Download CV
+</a>
         {/* Hamburger button (only on mobile) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
