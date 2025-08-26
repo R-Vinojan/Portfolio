@@ -135,27 +135,28 @@ export default function Body(){
                                   <div class="flex flex-col gap-3 pt-4">
                                       <PortfolioCard
                                         title="Responsive Portfolio"
-                                        description="Here is my fine looking cyber security portfolio. This is one of my Here is my fine looking cyber security portfolio. This is one of great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                                        description="This project is my personal portfolio website, designed to showcase
+                                         my skills, projects, and experiences. Built with React.js, TailwindCSS, and Vite.js, it delivers a fast, responsive, and modern user interface. The site highlights my work through a structured layout with smooth animations and interactive navigation. It also includes a contact section and CV download option, making it easy for visitors to connect with me. The design emphasizes simplicity while reflecting my personal branding."               
                                         imageSrc="./image.png"
-                                        link="#"                                    
+                                        link="https://r-vinojan.github.io/Portfolio/"                                    
                                       />
                                       <PortfolioCard
                                         title="Responsive UI/UX design"
-                                        description="Here is one of my figma design UI/UX ,this is for ride hailing application. This is one of great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                                        description="I designed a user-friendly interface for an electric vehicle ride-hailing app focused on sustainability and convenience. The project emphasizes intuitive navigation, clean layouts, and seamless booking flows for riders. I applied modern UI/UX principles to create wireframes, prototypes, and interactive designs that enhance usability and accessibility. The design prioritizes eco-friendly branding, easy ride selection, and a smooth payment experience, providing users with a visually appealing, efficient, and engaging mobility solution."               
                                         imageSrc="./image2.png"
-                                        link="#"
+                                        link="https://www.figma.com/design/ofRQwzMcBWJYY82gNHT0QE/Untitled?node-id=0-1&t=LlJrZLXdVt7rTfFS-1"
                                       />
                                       <PortfolioCard
                                         title="Responsive UI/UX design"
-                                        description="Here is one of my figma design UI/UX ,this is for our first year project website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
+                                        description="As part of my first-year group project, I contributed to designing a website interface using Figma. The focus was on creating a clean, user-friendly, and responsive layout that improved navigation and accessibility. I worked collaboratively with my team to design wireframes, prototypes, and interactive mockups that reflected our project goals. The design emphasized simplicity, consistency, and visual balance, helping us deliver a polished concept that showcased both creativity and strong teamwork."               
                                         imageSrc="./image3.png"
-                                        link="#"
+                                        link="https://www.figma.com/files/team/1519573859046699336/project/406176744/Team-project?fuid=1509796134536818436"
                                       />
                                       <PortfolioCard
                                         title="My art gallery"
-                                        description="Here is one of my figma design UI/UX ,this is for our first year project website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nulla.Here is my fine looking cyber security portfolio. This is one of my great projects. Lorem ipsum dolor sit amet, consectetur adipiscing elit"               
-                                        imageSrc="./image2.png"
-                                        link="#"
+                                        description="Alongside web development and UI/UX, I also work as a graphic designer specializing in creative digital art. My designs focus on visual storytelling, blending colors, textures, and unique styles to create impactful artwork. I regularly share my creations on Instagram, which I use as a personal art gallery. I primarily design using Adobe Illustrator and Adobe Photoshop. If you’d like to explore my artwork, simply click the banner below to view my gallery."               
+                                        imageSrc="./image5.png"
+                                        link="https://www.instagram.com/mr.vide.xt3r/?igsh=MTU0MnRkZzNyNGEzdw%3D%3D#"
                                       />
                                   </div>
                         </div>                      

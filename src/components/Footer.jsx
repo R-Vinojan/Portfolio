@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaDiscord } from "react-
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 px-6 mt-190 md:mt-90">
+    <footer className="bg-gray-900 text-gray-300 py-10 px-6 mt-240 md:mt-90">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* Left: About / Contact Info */}
