@@ -78,7 +78,7 @@ export default function Body(){
   </div>
 </div>
 
-        <div id="about" class="flex flex-col gap-5 mr-4 ml-4">
+        <div id="aboutme" class="flex flex-col gap-5 mr-4 ml-4">
                 <div class="border-2 border-green-300 rounded-md h-auto bg-black backdrop-blur-md p-1.5" >
                         <h1 class="text-center text-green-500 text-4xl font-bold">My story</h1>
                         <About />
@@ -160,7 +160,7 @@ export default function Body(){
                                       />
                                   </div>
                         </div>                      
-                        <div id="blog" class="flex flex-col gap-4 h-110 pl-4 pr-4 pd-4 scroll-reveal">
+                        <div id="achivement" class="flex flex-col gap-4 h-110 pl-4 pr-4 pd-4 scroll-reveal">
                                 <div class="flex flex-col gap-4 md:flex-row">          
                                     <Achievements />  
                                 </div>
